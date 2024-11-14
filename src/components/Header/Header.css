@@ -1,0 +1,96 @@
+:root {
+    --primary-color: #fff; /* Honey yellow */
+    --secondary-color: #FBC02D; /* White */
+    --text-color: #333; /* Dark gray for text */
+    --background-color: #FFF; /* Background color */
+    --hover-color: #FFE082; /* Lighter yellow for hover effects */
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border-bottom: 1px solid grey;
+  }
+  
+  .header__profile svg{
+    font-size: 1.5em;
+    margin: 5px;
+  }
+  .header__link{
+    font-size: 1.7em;
+    font-weight: 300;
+    
+  }
+  .header__logo img {
+    height: 75px;
+  }
+  
+  .header__nav {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .header__link {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .header__link:hover {
+    color: var(--hover-color);
+  }
+  
+  .header__search {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .header__search-input {
+    padding: 0.5rem;
+    border: 1px solid var(--hover-color);
+    border-radius: 4px;
+  }
+  
+  .header__search-button {
+    background-color: var(--hover-color);
+    border: none;
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header__search-button:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+  }
+  
+  .header__profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .header__icon {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .header__icon:hover {
+    color: var(--hover-color);
+  }
+  
+  header{
+  font-family: "Flow Circular", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
